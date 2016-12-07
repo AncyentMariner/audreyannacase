@@ -77,11 +77,14 @@ header {
 }
 
 .box-content {
-  /*background-color:rgba(94, 73, 65, .4);*/
+  background-color:rgba(233, 226, 210, 0.48);
+  background-clip:border-box;
   position: absolute;
+  border-radius: 3%;
   margin-top: 3em;
   margin-right: 20%;
-  padding-left:240px;
+  margin-left: 190px;
+  padding: 20px 40px 40px 40px;
   left: calc(20%);
   font-family:'Alegreya Sans', light;
   color: #5e4941;
@@ -91,7 +94,6 @@ header {
 .box-content > p {
   padding-right: 3%;
   float: right;
-  /*z-index: 1001;*/
 }
 #about-stuff {
   float: right;
@@ -103,9 +105,9 @@ header {
   border-radius: 3%;
   float: left;
   margin-right: 20px;
-  /*z-index: 1002;*/
 }
 
 #photography-stuff > div > img {
   border-radius:3%;
+  border-width: 10%;
 }
