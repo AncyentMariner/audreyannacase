@@ -1,5 +1,5 @@
 body {
-  background-image: url("frenchstucco.png");
+  background-image: url("images/frenchstucco.png");
 }
 
 .container {
@@ -37,7 +37,7 @@ header {
   width: 235px;
   height: 300px;
   list-style-type: none;
-  position:relative;
+  position:absolute;
   margin: auto;
 }
 
@@ -72,31 +72,40 @@ header {
   background-color: #5e4941;
 }
 
-#photos{
-  border-radius:30px;
-}
-
 .main-content {
   margin: auto;
 }
 
 .box-content {
+  /*background-color:rgba(94, 73, 65, .4);*/
+  position: absolute;
   margin-top: 3em;
-  margin-left:200px;
-  position: relative;
-  left: calc(-30%);
+  margin-right: 20%;
+  padding-left:240px;
+  left: calc(20%);
   font-family:'Alegreya Sans', light;
   color: #5e4941;
   overflow: auto;
 }
 
 .box-content > p {
+  padding-right: 3%;
   float: right;
+  /*z-index: 1001;*/
+}
+#about-stuff {
+  float: right;
+  max-width: inherit;
+  overflow: auto;
 }
 
 #artist-photo > img {
   border-radius: 3%;
-  position:relative;
-  margin-right: 10px;
   float: left;
+  margin-right: 20px;
+  /*z-index: 1002;*/
+}
+
+#photography-stuff > div > img {
+  border-radius:3%;
 }
