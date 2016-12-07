@@ -27,7 +27,7 @@ header {
 }
 
 #main-sidebar > div.main-links > li > a:hover {
-  color: #e09e1a;
+  color: #7fa5e2;
 }
 
 #main-sidebar {
@@ -72,11 +72,31 @@ header {
   background-color: #5e4941;
 }
 
+#photos{
+  border-radius:30px;
+}
+
 .main-content {
   margin: auto;
 }
 
 .box-content {
   margin-top: 3em;
-  margin-left: -15em;
+  margin-left:200px;
+  position: relative;
+  left: calc(-30%);
+  font-family:'Alegreya Sans', light;
+  color: #5e4941;
+  overflow: auto;
+}
+
+.box-content > p {
+  float: right;
+}
+
+#artist-photo > img {
+  border-radius: 3%;
+  position:relative;
+  margin-right: 10px;
+  float: left;
 }
