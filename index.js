@@ -1,4 +1,3 @@
-jQuery
 $(document).ready(function(){
   $('.fetch').click(function(){
     var currentLink = $(this).prop('id'), len = currentLink.length;
